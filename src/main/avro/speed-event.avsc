@@ -1,0 +1,15 @@
+{
+  "namespace": "ru.practicum.avro_example",
+  "type": "record",
+  "name": "SpeedEventAvro",
+  "fields": [
+    {
+      "name": "speed",
+      "type": "double"
+    },
+    {
+      "name": "acceleration",
+      "type": "double"
+    }
+  ]
+}

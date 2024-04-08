@@ -1,0 +1,7 @@
+{
+  "namespace": "ru.practicum.avro_example",
+  "type": "record",
+  "name": "ECUCheckEventAvro",
+  "fields": [
+  ]
+}

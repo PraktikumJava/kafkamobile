@@ -1,0 +1,11 @@
+{
+  "namespace": "ru.practicum.avro_example",
+  "type": "record",
+  "name": "AccelerateEventAvro",
+  "fields": [
+    {
+      "name": "acceleration",
+      "type": "double"
+    }
+  ]
+}

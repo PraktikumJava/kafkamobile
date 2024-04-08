@@ -1,0 +1,15 @@
+{
+  "namespace": "ru.practicum.avro_example",
+  "type": "record",
+  "name": "CheckOkEventAvro",
+  "fields": [
+    {
+      "name": "class",
+      "type": "string"
+    },
+    {
+      "name": "item",
+      "type": "string"
+    }
+  ]
+}

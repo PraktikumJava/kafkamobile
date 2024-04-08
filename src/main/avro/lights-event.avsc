@@ -1,0 +1,15 @@
+{
+  "namespace": "ru.practicum.avro_example",
+  "type": "record",
+  "name": "LightsEventAvro",
+  "fields": [
+    {
+      "name": "enable",
+      "type": "boolean"
+    },
+    {
+      "name": "distance",
+      "type": "int"
+    }
+  ]
+}
