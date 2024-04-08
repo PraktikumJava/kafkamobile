@@ -17,10 +17,11 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Configuration
 public class LadaClientConfiguration {
 
+    private final AtomicInteger counter = new AtomicInteger(0);
+
     @Bean
     @Scope("prototype")
     LadaClient getClient() {
-        AtomicInteger counter = new AtomicInteger(0);
         return new LadaClient() {
 
             private Consumer<String, SpecificRecordBase> consumer;
